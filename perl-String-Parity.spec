@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	String
-%define	pnam	Parity
+%define		pdir	String
+%define		pnam	Parity
 Summary:	String::Parity - parity (odd/even/mark/space) handling functions
 Summary(pl):	String::Parity - funkcje obs³uguj±ce parzysto¶æ
 Name:		perl-String-Parity
