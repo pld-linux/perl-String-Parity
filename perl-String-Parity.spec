@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Parity
-Summary:	String::Parity -- Parity (odd/even/mark/space) handling functions
+Summary:	String::Parity - parity (odd/even/mark/space) handling functions
 Summary(pl):	String::Parity - funkcje obs³uguj±ce parzysto¶æ
 Name:		perl-String-Parity
 Version:	1.31
