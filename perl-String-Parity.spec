@@ -3,7 +3,7 @@ Summary:	String-Parity perl module
 Summary(pl):	Modu³ perla String-Parity
 Name:		perl-String-Parity
 Version:	1.31
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
