@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Parity
-Summary:	String::Parity perl module
-Summary(pl):	Modu³ perla String::Parity
+Summary:	String::Parity -- Parity (odd/even/mark/space) handling functions
 Name:		perl-String-Parity
 Version:	1.31
 Release:	8
@@ -15,10 +14,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String::Parity perl module.
-
-%description -l pl
-Modu³ perla String::Parity.
+The String::Parity module for perl5 may be used to generate and test even,
+odd, mark and space parity on arbitrary strings.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -32,13 +29,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README
 %{perl_sitelib}/String/Parity.pm
 %{_mandir}/man3/*
