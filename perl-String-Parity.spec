@@ -9,7 +9,7 @@ Summary:	String::Parity - parity (odd/even/mark/space) handling functions
 Summary(pl):	String::Parity - funkcje obs³uguj±ce parzysto¶æ
 Name:		perl-String-Parity
 Version:	1.31
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
