@@ -28,7 +28,7 @@ testowania ró¿nych rodzajów parzysto¶ci dowolnych ³añcuchów.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
