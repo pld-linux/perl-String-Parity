@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Parity
-Summary:	String-Parity perl module
-Summary(pl):	Modu³ perla String-Parity
+Summary:	String::Parity perl module
+Summary(pl):	Modu³ perla String::Parity
 Name:		perl-String-Parity
 Version:	1.31
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-String-Parity perl module.
+String::Parity perl module.
 
 %description -l pl
-Modu³ perla String-Parity.
+Modu³ perla String::Parity.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
