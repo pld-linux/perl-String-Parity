@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	String
 %define	pnam	Parity
-%include	/usr/lib/rpm/macros.perl
 Summary:	String-Parity perl module
 Summary(pl):	Modu³ perla String-Parity
 Name:		perl-String-Parity
 Version:	1.31
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ String-Parity perl module.
 Modu³ perla String-Parity.
 
 %prep
-%setup -q -n String-Parity-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
