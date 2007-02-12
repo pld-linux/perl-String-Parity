@@ -6,7 +6,7 @@
 %define		pdir	String
 %define		pnam	Parity
 Summary:	String::Parity - parity (odd/even/mark/space) handling functions
-Summary(pl):	String::Parity - funkcje obs³uguj±ce parzysto¶æ
+Summary(pl.UTF-8):   String::Parity - funkcje obsÅ‚ugujÄ…ce parzystoÅ›Ä‡
 Name:		perl-String-Parity
 Version:	1.31
 Release:	12
@@ -24,9 +24,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The String::Parity module for perl5 may be used to generate and test even,
 odd, mark and space parity on arbitrary strings.
 
-%description -l pl
-Modu³ Perla String::Parity mo¿e byæ u¿ywany do generowania i
-testowania ró¿nych rodzajów parzysto¶ci dowolnych ³añcuchów.
+%description -l pl.UTF-8
+ModuÅ‚ Perla String::Parity moÅ¼e byÄ‡ uÅ¼ywany do generowania i
+testowania rÃ³Å¼nych rodzajÃ³w parzystoÅ›ci dowolnych Å‚aÅ„cuchÃ³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
